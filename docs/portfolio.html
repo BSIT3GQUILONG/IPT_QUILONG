@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maii's</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sniglet:wght@400;800&display=swap">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/brittany-signature">
+
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="img/logo.png" alt="Maii's Sakura Logo" width="120"></a>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+
+        <a class="cta" href="portfolio.html"><button>PORTFOLIO</button></a>
+    </header>
+
+    <div class="container">
+        <h1 class="solid">Portfolio</h1>
+    </div>
+
+    <div class="grid container">
+        <div class="card" onclick="openModal(1)">
+            <img class="card-img" src="img/portfolio/1.jpg">
+            <h2 class="solid-3">Sakura Miku Hanami - Fanart</h2>
+        </div>
+        <div class="card" onclick="openModal(2)">
+            <img class="card-img" src="img/portfolio/2.jpg">
+            <h2 class="solid-3">Character Design Test 1 - OC</h2>
+        </div>
+        <div class="card" onclick="openModal(3)">
+            <img class="card-img" src="img/portfolio/3.jpg">
+            <h2 class="solid-3">Character Design Test 2 - OC</h2>
+        </div>
+        <div class="card" onclick="openModal(4)">
+            <img class="card-img" src="img/portfolio/4.jpg">
+            <h2 class="solid-3">DaArtist - Self portrait</h2>
+        </div>
+        <div class="card" onclick="openModal(5)">
+            <img class="card-img" src="img/portfolio/5.jpg">
+            <h2 class="solid-3">Arcane Jinx - Fanart</h2>
+        </div>
+        <div class="card" onclick="openModal(6)">
+            <img class="card-img" src="img/portfolio/6.jpg">
+            <h2 class="solid-3">Maii Character Design - OC</h2>
+        </div>
+        <div class="card" onclick="openModal(7)">
+            <img class="card-img" src="img/portfolio/7.jpg">
+            <h2 class="solid-3">Bunnigurl Style Test - OC</h2>
+        </div>
+        <div class="card" onclick="openModal(8)">
+            <img class="card-img" src="img/portfolio/8.jpg">
+            <h2 class="solid-3">Mimii Character Design - OC</h2>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="1" class="modal">
+            <div class="modal-content container">
+                <img class="modal-img" src="img/portfolio/1.jpg">
+                <h2 class="solid-3">Sakura Miku Hanami - Fanart</h2>
+                <a class="cta"><button onclick="closeModal()">Close</button></a>
+            </div>
+        </div>
+        <div id="2" class="modal">
+            <div class="modal-content container">
+                <img class="modal-img" src="img/portfolio/2.jpg">
+                <h2 class="solid-3">Character Design Test 1 - OC</h2>
+                <a class="cta"><button onclick="closeModal()">Close</button></a>
+            </div>
+        </div>
+        <div id="3" class="modal">
+            <div class="modal-content container">
+                <img class="modal-img" src="img/portfolio/3.jpg">
+                <h2 class="solid-3">Character Design Test 2 - OC</h2>
+                <a class="cta"><button onclick="closeModal()">Close</button></a>
+            </div>
+        </div>
+        <div id="4" class="modal">
+            <div class="modal-content container">
+                <img class="modal-img" src="img/portfolio/4.jpg">
+                <h2 class="solid-3">DaArtist - Self portrait</h2>
+                <a class="cta"><button onclick="closeModal()">Close</button></a>
+            </div>
+        </div>
+        <div id="5" class="modal">
+            <div class="modal-content container">
+                <img class="modal-img" src="img/portfolio/5.jpg">
+                <h2 class="solid-3">Arcane Jinx - Fanart</h2>
+                <a class="cta"><button onclick="closeModal()">Close</button></a>
+            </div>
+        </div>
+        <div id="6" class="modal">
+            <div class="modal-content container">
+                <img class="modal-img" src="img/portfolio/6.jpg">
+                <h2 class="solid-3">Maii Character Design - OC</h2>
+                <a class="cta"><button onclick="closeModal()">Close</button></a>
+            </div>
+        </div>
+        <div id="7" class="modal">
+            <div class="modal-content container">
+                <img class="modal-img" src="img/portfolio/7.jpg">
+                <h2 class="solid-3">Bunnigurl Style Test - OC</h2>
+                <a class="cta"><button onclick="closeModal()">Close</button></a>
+            </div>
+        </div>
+        <div id="8" class="modal">
+            <div class="modal-content container">
+                <img class="modal-img" src="img/portfolio/8.jpg">
+                <h2 class="solid-3">Mimii Character Design - OC</h2>
+                <a class="cta"><button onclick="closeModal()">Close</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
